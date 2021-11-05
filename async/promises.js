@@ -9,7 +9,7 @@ function hola(nombre) {
 
 function hablar(nombre) {
     return new Promise((resolve, reject) => {
-        if (true) {
+        if (false) {
                 setTimeout(function () {
                     console.log('Bla bla bla');
                     resolve(nombre);
